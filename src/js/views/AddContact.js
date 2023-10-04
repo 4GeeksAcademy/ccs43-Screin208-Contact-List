@@ -16,13 +16,12 @@ export const AddContact = () => {
 
 	const handleInput = (event) => {
 		const { name, value } = event.target;
-		//setNewContact({ ...newContact, [name]: value });
 		setNewContact({ ...newContact, [name]: value });
 	};
 
 	const addNewContact =(event) => {
         event.preventDefault();
-        //actions.setStore({ users: [...store.users, newContact] });
+       
 		actions.postUsers(newContact);
         setNewContact({
 			email: "",

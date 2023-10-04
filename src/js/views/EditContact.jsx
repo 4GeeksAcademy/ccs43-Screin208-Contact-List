@@ -40,7 +40,7 @@ export const EditContact = (id) => {
             <div className="card mb-3" style={{ maxWidth: "700px" }}>
                 <div className="row">
                     <div className="col-md-4">
-                        <img src="https://static.wikia.nocookie.net/doblaje/images/4/44/Freddy-freddy-krueger-33746737-500-614.jpg/revision/latest/thumbnail/width/360/height/450?cb=20140817034203&path-prefix=es" className="card-img" alt="..." />
+                        <img src="https://i.pinimg.com/236x/65/36/72/653672eea0fefa046332dd21e9396d57.jpg" className="card-img" alt="..." />
                     </div>
                     <div className="col-md-8">
                         <div className="card-body" style={{ width: "700px" }}>
